@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_margin="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/photo_item"
+        android:transitionName="backgroundTransition"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitXY"/>
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        card_view:loading_width="5dp"
+        card_view:loading_color="@color/colorPrimary"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

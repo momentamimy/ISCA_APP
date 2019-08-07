@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_margin="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:background="@color/colorPrimary"
+            android:id="@+id/Photo_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text=""/>
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/id_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Id_text"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_id"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/owner_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="owner:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/owner_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_owner"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/secret_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_secret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="secret:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/secret_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_secret"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/server_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="server:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/server_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_server"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/farm_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_farm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="farm:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/farm_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_farm"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/ispublic_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_ispublic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ispublic:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ispublic_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_ispublic"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/isfriend_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_isfriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isfriend:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/isfriend_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_isfriend"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_below="@+id/Photo_Title"
+            android:id="@+id/isfamily_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/Photo_isfamily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isfamily:"
+                android:textSize="16sp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textDirection="ltr"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/isfamily_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:layout_below="@+id/Photo_isfamily"
+                android:maxLength="20"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
